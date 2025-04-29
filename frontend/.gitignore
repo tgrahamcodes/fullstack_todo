@@ -1,0 +1,48 @@
+# Node modules (dependencies)
+node_modules/
+.pnpm/
+.pnpm-debug.log
+
+# Output from TypeScript or build tools
+dist/
+build/
+lib/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env
+.env.*.local
+.env.local
+
+# Editor folders/files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+*.tmp
+
+# Mac/Linux trash & swap
+.Trashes
+*~
+*.swp
+*.swo
+
+# VSCode launch configs
+.vscode/launch.json
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Misc
+*.local
